@@ -1,0 +1,193 @@
+li {
+  list-style-type: none;
+}
+
+.navbar-custom {
+  max-width: 1000px;
+  background-color: #111;
+  color: #FFF;
+  height: 55px;
+  font-size: 1.2em;
+  font-family: 'Montserrat';
+  font-weight: 200;
+  margin: 0 auto !important;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.navbar-custom .navbar-nav .nav-link  {
+  color: #992;
+  padding-right: 10px;
+  text-decoration: none !important;
+  background-color: black;
+}
+
+.navbar-brand {
+  color: #992;
+}
+.navbar-brand:hover {
+  color: #FFF;
+}
+
+.nav-item a:link{
+  color: #FFF;
+}
+
+.nav-link {
+  background-color: #111 !important;
+}
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: #FFF !important;
+  background-color: #992 !important;
+}
+.body-container {
+  max-width: 1000px !important;
+  margin: 0 auto !important;
+  float: none !important;
+  padding-top: 300px;
+}
+#home {
+  background: url(../images/background_landing.jpg) center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.header_me {
+  border-radius: 50%;
+  height: 40%;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #992;
+  font-family: Montserrat;
+  font-weight: 200;
+}
+
+p {
+  font-size: 1em;
+  font-family: Montserrat;
+  font-weight: 200;
+}
+
+.padding {
+  margin-top: 20px;
+}
+
+#about {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  background-color: white;
+  border-radius: 10px 10px 0 0;
+}
+
+/* #fixed {
+  background: url(../images/background_disney.jpg) center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 30%;
+  width: 100%;
+  display: block;
+  position: relative;
+  background-size: cover;
+} */
+
+.landing-text {
+  /* display: table-cell; */
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  margin-bottom: 100px;
+}
+
+#projects {
+  padding: 40px 0;
+}
+h3,
+h4 {
+  align-items: center;
+  font-family: Montserrat;
+  font-weight: 200;
+}
+
+.tools-font {
+  font-family: Montserrat;
+  font-weight: 700;
+}
+
+.devicon-apple-original,
+.devicon-nodejs-plain,
+.devicon-javascript-plain,
+.devicon-mongodb-plain-wordmark,
+.devicon-bootstrap-plain,
+.devicon-gitlab-plain,
+.devicon-jquery-plain,
+.devicon-nginx-original,
+.devicon-ssh-plain-wordmark,
+.devicon-trello-plain,
+.devicon-linux-plain,
+.devicon-php-plain,
+.devicon-html5-plain,
+.devicon-css3-plain {
+  font-size: 4rem;
+}
+
+#projects {
+  background-color: #999888;
+}
+
+footer {
+  background-color: #222222;
+  color: white;
+  padding-top: 20px;
+}
+
+#footer {
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Montserrat;
+  font-weight: 200;
+}
+
+.footer-bg {
+  background: url(../images/background_landing.jpg) center center no-repeat fixed;
+  background-size: cover;
+}
+.fa {
+  font-size: 30px;
+  padding: 5px;
+  text-decoration: none;
+}
+#email {
+  padding: 5px;
+}
+#email:hover {
+  color: yellow;
+  text-decoration: none;
+}
+a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+.fa:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+#tech {
+  font-size: 30px;
+}
