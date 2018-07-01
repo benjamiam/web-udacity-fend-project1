@@ -5,10 +5,10 @@ li {
 .navbar-custom {
   max-width: 1000px;
   background-color: #111;
-  color: #FFF;
+  color: #fff;
   height: 55px;
   font-size: 1.2em;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 200;
   margin: 0 auto !important;
   border-radius: 0px 0px 5px 5px;
@@ -40,11 +40,11 @@ li {
   color: #FFF !important;
   background-color: #992 !important;
 }
-.body-container {
+.container {
   max-width: 1000px !important;
   margin: 0 auto !important;
   float: none !important;
-  padding-top: 300px;
+  padding-top: 50px;
 }
 #home {
   background: url(../images/background_landing.jpg) center center;
@@ -62,8 +62,9 @@ li {
 
 .header_me {
   border-radius: 50%;
-  height: 40%;
+  height: 200px;
   margin-bottom: 20px;
+  margin-top: 300px;
 }
 
 h1 {
